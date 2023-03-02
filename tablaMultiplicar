@@ -1,0 +1,20 @@
+
+public class tablaMultiplicacion {
+	
+	public static void main(String[] args) {
+		
+		for (int contador = 0; contador <= 10 ; contador++) {
+				System.out.print("tabla del " + contador + " --> ");
+			for(int multiplicacion = 0; multiplicacion <=10; multiplicacion ++) {
+				System.out.print(contador + " x " + multiplicacion + " = "+ contador*multiplicacion+", ");
+
+			}
+			
+			//salto de linea o también se puede con print("\n")
+			System.out.println("");
+
+		}
+		
+	}
+
+}
